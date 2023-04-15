@@ -1,20 +1,33 @@
-.technologies {
-    width: 70%;
-    margin-left: 15%;
-    div {
-        margin-bottom: 2vh;
-        text-align: center;
-        a {
-            text-decoration: none;
-            margin-left: 5px;
-            margin-right: 5px;
-            i {
-                font-size: 100px;
+div {
+    ul {
+        width: 100%;
+        .nav-item {
+            text-align: center;
+                            padding-left: 15%;
+
+            button {
+                text-align: center;
+                color: white;
             }
         }
     }
-    .devicon-express-original, .devicon-python-plain, .devicon-github-original {
-        color: white;
+    width: 70%;
+    margin-left: 15%;
+    .tab-content {
+        .tab-pane {
+            div {
+                display: flex;
+                justify-content: center;
+                padding-top: 10vh;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    i {
+                        font-size: 100px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -27,7 +40,7 @@
         div {
             a {
                 i {
-                    font-size: 75px;
+                    font-size: 100px;
                 }
             }
         }
