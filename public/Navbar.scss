@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Playfair+Display&display=swap');
+$font-1: 'Fira Code', sans-serif;
+$font-2: 'Playfair Display', serif;
+nav {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        #head {
+            margin-top: 3.5vh;
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: white;
+                font-family: $font-2;
+                h3 {
+                    span {
+                        color: #42b883;
+                    }
+                }
+                i {
+                    display: none;
+                    color: #42b883;
+                    font-size: 35px;
+                    
+                }
+            }
+        }
+        #links, #social-medias {
+            list-style: none;
+            ul {
+                #sun {
+                    i {
+                        color: white;
+                    }
+                    list-style: none;
+                }
+                margin-top: 4vh;
+                display: flex;
+                li {
+                    list-style: none;
+                    padding-right: 20px;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 18px;
+                        transition: 300ms;
+                        &:hover {
+                            color: #42b883;
+                        }
+                    }
+                }
+            }
+        }
+        #links {
+            ul {
+                li {
+                    a {
+                        font-family: $font-1;
+                    }
+                }
+            }
+        }
+        #social-medias {
+            margin-right: 10px;
+            display: flex;
+            ul {
+                li {
+                    a {
+                        i {
+                            font-size: 20px;
+                        }
+                    }
+                }
+                #sun {
+                    list-style: none;
+                    color: white;
+                    i {
+                        font-size: 22px;
+                    }
+                }
+                #burger {
+                    display: none;
+                    list-style: none;
+                    color: white;
+                    i {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1031px){
+    nav { 
+        ul {
+            #head {
+                a {
+                    h3 {
+                        display: none;
+                    }
+                    i {
+                        display: block;
+                    }
+                }
+            }
+            #links {
+                display: none;
+            }
+            #social-medias {
+                #account-icon {
+                    display: none;
+                }
+                #icons {
+                    #sun {
+                        margin-right: -11px;
+                        margin-top: -3px;
+                    }
+                    #burger {
+                        margin-top: -10px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

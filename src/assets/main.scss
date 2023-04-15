@@ -1,0 +1,200 @@
+.dark {
+  background-color: #0a192f;
+}
+.light {
+  background-color: white;
+  nav {
+    ul {
+      #head {
+        a {
+          color: black;
+          span {
+            color: #C800FF;
+          }
+        }
+      }
+      #links, #social-medias {
+        ul {
+          li {
+            a {
+              color: black;
+            }
+          }
+        }
+      }
+
+      #social-medias {
+        #icons {
+          li {
+            i {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+  .modal {
+    .modal-dialog {
+      .modal-content {
+        background-color: white;
+        .modal-links {
+          ul {
+            margin-top: 35%;
+            li {
+              a {
+                color: black;
+              }
+            }
+          }
+        }
+        .modal-foot{
+          hr {
+            color: black;
+          }
+          ul {
+            li {
+              a {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .desktop {
+    .carousel {
+      .carousel-inner {
+        .carousel-item {
+          div {
+            .short-about {
+              .welcome {
+                #name {
+                  color: black;
+                }
+                #description {
+                  color: black;
+                }
+              }
+            }
+            .technologies {
+              .devicon-express-original, .devicon-python-plain, .devicon-github-original {
+                color: black;
+              }
+            }
+
+            .content {
+              .second {
+                .repos {
+                  border-radius: 15px;
+                  background: linear-gradient(
+                    to right bottom,
+                  rgba(255, 255, 255, 0.4),
+                  rgba(255, 255, 255, 0.1)
+                );
+                  box-shadow: 4px 4px 5px #333;
+                  z-index: 1;
+                  ul {
+                    li {
+                      a {
+                        color: black;
+                        &:hover {
+                          color: #42b883;
+                        }
+                      }
+                    }
+                  }
+                  .langs {
+                    ul {
+                      li {
+                        color: black;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+
+            .content {
+              .about {
+                h1 {
+                  color: black;
+                }
+                p {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+  .mobile {
+    .links-container {
+      .short-about {
+        .welcome {
+          #name {
+            color: black;
+          }
+          #description {
+            color: black;
+          }
+        }
+      }
+      .technologies {
+        .devicon-express-original, .devicon-python-plain, .devicon-github-original {
+          color: black;
+        }
+      }
+
+      .content {
+        .second {
+          .repos {
+            border-radius: 15px;
+            background: linear-gradient(
+              to right bottom,
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.1)
+          );
+            box-shadow: 4px 4px 5px #333;
+            z-index: 1;
+            ul {
+              li {
+                a {
+                  color: black;
+                  &:hover {
+                    color: #42b883;
+                  }
+                }
+              }
+            }
+            .langs {
+              ul {
+                li {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
+      .content {
+        .about {
+          h1 {
+            color: black;
+          }
+          p {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

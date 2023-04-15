@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Playfair+Display&display=swap');
+$font-1: 'Fira Code', sans-serif;
+$font-2: 'Playfair Display', serif;
+
+
+.modal {
+  .modal-dialog {
+    .modal-content {
+      background-color: #0a192f;
+      .modal-head {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2vh;
+        h1 {
+          a {
+            color: #42b883;
+            font-size: 35px;
+            margin-left: 20px;
+          }
+        }
+        button {
+          background-color: transparent;
+          border: none;
+          i {
+            color: #42b883;
+            font-size: 35px;
+            margin-right: 20px;
+          }
+        }
+      }
+      .modal-links {
+        ul {
+          margin-top: 35%;
+          li {
+            list-style: none;
+            text-align: center;
+            margin-top: 20px;
+            a {
+              color: white;
+              text-decoration: none;
+              font-size: 30px;
+              font-family: $font-1;
+              &:hover {
+                color: #42b883;
+              }
+            }
+          }
+        }
+      }
+      .modal-foot {
+        width: 90%;
+        bottom: 0;
+        position:absolute;
+        bottom: 0;
+        margin-left: 5%;
+        hr {
+          color: white;
+        }
+        ul {
+          display: flex;
+          justify-content: end;
+          li {
+            list-style: none;
+            a {
+              font-size: 22px;
+              color: white;
+              margin-right: 15px;
+              &:hover {
+                color: #42b883;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

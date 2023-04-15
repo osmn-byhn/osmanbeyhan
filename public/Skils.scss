@@ -1,0 +1,48 @@
+.technologies {
+    width: 70%;
+    margin-left: 15%;
+    div {
+        margin-bottom: 2vh;
+        text-align: center;
+        a {
+            text-decoration: none;
+            margin-left: 5px;
+            margin-right: 5px;
+            i {
+                font-size: 100px;
+            }
+        }
+    }
+    .devicon-express-original, .devicon-python-plain, .devicon-github-original {
+        color: white;
+    }
+}
+
+@media screen and (max-width:1031px){
+    .technologies {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+        div {
+            a {
+                i {
+                    font-size: 75px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:557px){
+    .technologies {
+        margin: 90%;
+        div {
+            a {
+                i {
+                    font-size: 75px;
+                }
+            }
+        }
+    }
+}
