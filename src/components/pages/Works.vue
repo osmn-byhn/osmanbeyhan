@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
   import { ref } from 'vue'
   import axios from 'axios'
   const dataGithub = ref([])
@@ -19,7 +19,7 @@
           axios.get(element.languages_url)
             .then(response => {
               dataLanguage.value.push(response.data)
-              console.log(response);              
+              console.log(response);
             })
             .catch(error => {
               console.log(`Hata oluştu: ${error.message}`);
@@ -38,7 +38,7 @@
     <div class="second">
       <div class="repos" v-for="(item, i) in dataGithub">
         <ul>
-          <li>
+          <li id="name">
             <a :href="dataGithub[i].html_url" target="_blank">{{ dataGithub[i].name }}</a>
           </li>
           <li>

@@ -3,8 +3,8 @@ div {
         width: 100%;
         .nav-item {
             text-align: center;
-                            padding-left: 15%;
-
+            padding-left: 12%;
+            padding-right: 12%;
             button {
                 text-align: center;
                 color: white;
@@ -32,15 +32,34 @@ div {
 }
 
 @media screen and (max-width:1031px){
-    .technologies {
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 0;
-        margin-bottom: 0;
-        div {
-            a {
-                i {
-                    font-size: 100px;
+    div {
+        ul {
+            width: 100%;
+            .nav-item {
+                text-align: center;
+                width: 33%;
+                button {
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
+        width: 70%;
+        margin-left: 0%;
+        .tab-content {
+            .tab-pane {
+                margin-left: 50%;
+                div {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 10vh;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        i {
+                            font-size: 80px;
+                        }
+                    }
                 }
             }
         }
@@ -48,12 +67,34 @@ div {
 }
 
 @media screen and (max-width:557px){
-    .technologies {
-        margin: 90%;
-        div {
-            a {
-                i {
-                    font-size: 75px;
+    div {
+        ul {
+            width: 100%;
+            .nav-item {
+                text-align: center;
+                padding-left: 5%;
+                button {
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
+        width: 70%;
+        margin-left: 0%;
+        .tab-content {
+            .tab-pane {
+                margin-left: 50%;
+                div {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 10vh;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        i {
+                            font-size: 80px;
+                        }
+                    }
                 }
             }
         }

@@ -131,6 +131,24 @@
         }
       }
     }
+    .skills {
+      ul {
+          .nav-item {
+              button {
+                  color: black;
+              }
+          }
+      }
+      .tab-content {
+          .tab-pane {
+            div {
+              a {
+                color: black;
+              }
+          }
+        }
+      }
+    }
   }
 
 
@@ -195,6 +213,25 @@
           }
         }
       }
+    }
+  }
+  .skills {
+    ul {
+        .nav-item {
+            padding-right: 12%;
+            button {
+                color: black;
+            }
+        }
+    }
+    .tab-content {
+        .tab-pane {
+            div {
+                a {
+                    color: black;
+                }
+            }
+        }
     }
   }
 }

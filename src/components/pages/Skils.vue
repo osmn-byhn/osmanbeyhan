@@ -16,7 +16,7 @@ const activeTab = ref('web')
 </script>
 
 <template>
-    <div>
+    <div class="skills">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item  " role="presentation">
                 <button class="nav-link" :class="{ active: activeTab === 'web' }" @click="activeTab = 'web'" id="web-tab" data-bs-toggle="tab" data-bs-target="#web-tab-pane" type="button" role="tab" aria-controls="web-tab-pane" aria-selected="true">web</button>
